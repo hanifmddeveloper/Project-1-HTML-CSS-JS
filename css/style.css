@@ -1,0 +1,149 @@
+ 
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.manu{
+    padding: 20px 0;
+    background-color: aqua;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.manu ul{
+    text-align: center;
+}
+.manu ul li{
+    display: inline-block;
+}
+.manu ul li a{
+    padding: 0 20px;
+}
+.bggg{
+    background-color: rgb(43, 226, 83);
+    animation: ammi 2s;
+    -webkit-animation: amii 2s;
+}
+@keyframes amii{
+    0%{
+        top: -50px;
+    }
+    100%{
+      top:  0;
+    }
+}
+/* BANNER PART START */
+#banner{
+    padding: 200px 0;
+    background-color: tomato;
+}
+.back2Top{
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet; 
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: ponter;
+    display: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+.type{
+    color: red;
+    font-size: 36px;
+}
+/* BANNER PART END */
+/* ABOUT PART START */
+#about{
+    padding: 200px 0;
+    background-color: palegreen;
+}
+
+/* ABOUT PART START */
+#pricing{
+    padding: 200px 0;
+    background-color:yellow;
+}
+
+#pricing{
+   text-align: center;
+}
+.about_text h2{
+    margin-bottom: 40px;
+}
+input{
+    padding: 5px 20px;
+    margin-right: 80px;
+}
+button{
+    padding: 5px 20px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    background-color: aqua;
+}
+.edit{
+    padding: 5px 20px;
+    background-color: rgb(236, 78, 78);
+
+}
+.delete{
+    padding: 5px 20px;
+    background-color: rgb(243, 4, 4);
+
+}
+.ubtn{
+    background-color: rgb(73, 73, 240);
+}
+
+/* BLOG PART START */
+#blog{
+    padding: 200px 0;
+    background-color: greenyellow;
+}
+#blog h1{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.count_main {
+    display: flex;
+    text-align: center;
+}
+.count_main .count_one{
+    padding: 0px 80px !important;
+}
+.count_one img{
+    height: 60px;
+    width: 60px;
+    margin-bottom: 10px;
+}
+.counter{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* BL0G PART END */
+#contact{
+    padding: 200px 0;
+    background-color: pink;
+}
+#footer{
+    padding: 100px 0;
+    background-color: bisque;
+}
